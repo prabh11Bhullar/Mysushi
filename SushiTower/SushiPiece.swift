@@ -25,9 +25,7 @@ class SushiPiece: SKSpriteNode {
     override init(texture: SKTexture?, color: UIColor, size: CGSize) {
         super.init(texture: texture, color: color, size: size)
         
-        // @TODO Fix this so its alawys the same picture
-        
-        
+       
         // 1. setup our chopstick images
         self.stickGraphic = SKSpriteNode(imageNamed: "chopstick")
         // 2. set the stick position
@@ -69,12 +67,10 @@ class SushiPiece: SKSpriteNode {
         
        
     }
-    
     // Required nonsense
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    // Mark:  Functions
-    // --------------------------------
+    
 }
