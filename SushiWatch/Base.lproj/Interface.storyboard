@@ -45,7 +45,8 @@
                             <color key="textColor" red="0.88235294119999996" green="0.023529411760000001" blue="0.078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="font" type="system" pointSize="14"/>
                         </label>
-                        <button width="1" alignment="left" hidden="YES" title="More time?" id="P8P-Qz-hs3">
+                        <button width="1" alignment="left" hidden="YES" title="Need More time?" id="P8P-Qz-hs3">
+                            <color key="titleColor" red="0.81743508580000002" green="0.82039345850000001" blue="0.24101972999999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
                                 <action selector="btnMoreTime" destination="AgC-eL-Hgc" id="lF2-CF-jxo"/>
                             </connections>

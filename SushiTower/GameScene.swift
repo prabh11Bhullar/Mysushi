@@ -136,9 +136,6 @@ class GameScene: SKScene, WCSessionDelegate {
                 print("Phone does not support WCSession")
             }
         }
-        
-        
-        
         // add background
         let background = SKSpriteNode(imageNamed: "background")
         background.size = self.size
@@ -193,7 +190,6 @@ class GameScene: SKScene, WCSessionDelegate {
             self.spawnSushi()
         }
     }
-    
     
     override func update(_ currentTime: TimeInterval) {
         self.updateCount = self.updateCount + 1
@@ -389,34 +385,13 @@ class GameScene: SKScene, WCSessionDelegate {
             print("TAP LEFT")
             self.moveDirection = "left"
             self.moveCat()
-            // 2. person clicked left, so move cat left
-//            cat.position = CGPoint(x:self.size.width*0.25, y:100)
-//
-//            // change the cat's direction
-//            let facingRight = SKAction.scaleX(to: 1, duration: 0)
-//            self.cat.run(facingRight)
-//
-//            // save cat's position
-//            self.catPosition = "left"
-            
+    
         }
         else {
             print("TAP RIGHT")
             self.moveDirection = "right"
             self.moveCat()
-            // 2. person clicked right, so move cat right
-//            cat.position = CGPoint(x:self.size.width*0.85, y:100)
-//
-//            // change the cat's direction
-//            let facingLeft = SKAction.scaleX(to: -1, duration: 0)
-//            self.cat.run(facingLeft)
-//
-//            // save cat's position
-//            self.catPosition = "right"
+            
         }
-
-       
-        
-    }
- 
+}
 }
